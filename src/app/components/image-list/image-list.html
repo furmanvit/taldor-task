@@ -1,0 +1,11 @@
+
+<div class="search">
+  <input type="text" name="title" class="form-control" placeholder="filter" [(ngModel)]="filterText" (keyup)="filterImages()">
+</div>
+
+<div class="gallery">
+  <div class="image" *ngFor="let image of filteredImages">
+      <img src="{{image.url}}" alt="pic">
+    <div class="desc">{{image.title}}</div>
+  </div>
+</div>

@@ -2,32 +2,38 @@
   height: 40px;
   text-align: center;
   text-transform: uppercase;
-  color: red; }
+  color: red;
+}
 
 .gallery {
   width: 400px;
   margin: auto;
-  margin-top: 30px; }
+  margin-top: 30px;
+}
 
 .image {
   margin-left: 1px;
   float: left;
   width: 180px;
   border: 1px solid grey;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
 
 .image:hover {
   border: 1px solid #777;
-  border: 1px solid grey; }
+  border: 1px solid grey;
+}
 
 .image img {
   width: 100%;
   height: 110px;
-  border-radius: 9px 9px 0px 0px; }
+  border-radius: 9px 9px 0px 0px;
+}
 
 .desc {
   padding: 15px;
-  text-align: center; }
+  text-align: center;
+}
 
 .form-control {
   margin: auto;
@@ -41,6 +47,5 @@
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
-  border-radius: 4px; }
-
-/*# sourceMappingURL=styles.css.map */
+  border-radius: 4px;
+}
